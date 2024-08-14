@@ -47,9 +47,6 @@ public abstract class conta implements iConta{
 	System.out.println(String.format("Numero: %d", this.numero));
 	System.out.println(String.format("saldo: %.2f", this.saldo));
 	System.out.println(String.format("Foi realizado uma transferencia seu saldo e : %.2f", this.saldo));
-  }
-
-
-		
-	}
+  	}
+}
 
